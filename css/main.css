@@ -25,3 +25,26 @@ html {
   }
 
 }
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    max-height: 500px;
+  }
+
+  .banner-content {
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    bottom: 0;
+  }
+
+  header {
+    position: absolute;
+  }
+
+  .btn {
+    color: #efefef;
+    border: 3px solid #efefef;
+  }
+
+}
