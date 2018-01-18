@@ -1,10 +1,10 @@
 html {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   color: #fff;
 }
 
 header {
-  background-color: #495562
+  background-color: #495562;
 }
 
 .btn {
