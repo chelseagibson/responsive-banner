@@ -33,18 +33,28 @@ header {
   }
 
   .banner-content {
-    position: absolute;
+    overflow: hidden;
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
     bottom: 0;
   }
 
-  header {
+  main {
     position: relative;
+  }
+
+  .content {
+    background-color: rgba(73, 85, 98, 0);
   }
 
   .btn {
     color: #efefef;
     border: 3px solid #efefef;
+  }
+
+  .content-wrap {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
   }
 
 }
