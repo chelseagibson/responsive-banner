@@ -33,17 +33,13 @@ header {
   }
 
   .banner-content {
-    overflow: hidden;
+    position: absolute;
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
     bottom: 0;
   }
 
   main {
     position: relative;
-  }
-
-  .content {
-    background-color: rgba(73, 85, 98, 0);
   }
 
   .btn {
