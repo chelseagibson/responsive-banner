@@ -3,8 +3,8 @@ html {
   color: #fff;
 }
 
-.banner-content {
-  background-color: #495562;
+header {
+  background-color: #495562
 }
 
 .btn {
@@ -33,13 +33,13 @@ html {
   }
 
   .banner-content {
-    position: relative;
+    position: absolute;
     background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
     bottom: 0;
   }
 
   header {
-    position: absolute;
+    position: relative;
   }
 
   .btn {
